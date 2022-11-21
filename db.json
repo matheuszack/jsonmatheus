@@ -1,140 +1,141 @@
 {
-    "cinema":[
-        {
-            "id": 1,
-            "cine_nome":"Park Shopping",
-             "localizacao": "Estr. do Monteiro, 1200 - Campo Grande, Rio de Janeiro - RJ",
-             "horario_dos_filmes": "14h",
-             "assentos": "46 comuns, 30 vips, 25 preferencias",
-             "dub_leg":"Dub 15:00h, Leg 18:00h"
-        },
-        {
-            "id": 2,
-            "cine_nome":"Espaco Itau de Cinema - Pompeia",
-             "localizacao": "Rua Palestra Itália, 500 - Água Branca",
-             "horario_dos_filmes": "14H",
-             "assentos": "40 comuns, 40 vips, 40 preferencias",
-             "dub_leg":"Dub 17:30h, Leg 17:00"
-        },
-        {
-            "id": 3,
-            "cine_nome":"Cine Marquise",
-             "localizacao": "Avenida Paulista, 2073 - Bela Vista",
-             "horario_dos_filmes": "14H",
-             "assentos": "43 comuns, 43 vips, 43 preferencias",
-             "dub_leg":"Dub 19:30h, Leg 19:00"
-        },
-        {
-            "id": 4,
-            "cine_nome":"West Shopping",
-             "localizacao": "Estr. do Mendanha, 555 - Campo Grande, Rio de Janeiro - RJ",
-             "horario_dos_filmes": "a partir de 14h",
-             "assentos": "38 comuns, 25 vips, 28 preferencias",
-             "dub_leg":"Dub 14:00h, Leg 17:20h"
-        }
-    ],
-
-    "filme":[
-        {
-            "id": 1,
-            "fil_nome":"fil 1",
-            "nome": "Pantera Negra: Wakanda Para Sempre",
-            "genero": " Ação/Aventura",
-            "direcao":"Ryan Coogler",
-            "ano_de_lançamento": 2022,
-            "duração_do_filme": "2h 41m"
-            },
-        {
-            "id": 2,
-            "fil_nome":"fil 2",
-            "nome": "Corra, Querida, Corra,",
-            "genero": "terror",
-            "direcao":"Jason Blum,Effie Brown,Shana Feste,Brian Kavanaugh-Jones",
-            "ano_de_lançamento": 2022
-            },
-            {
-                "id": 3,
-                "fil_nome":"fil 3",
-                "nome": "Adão Negro",
-                "genero": "Ação,Fantasia,Super-herói,Suspense,Ficção Científica,Drama,Aventura",
-                "direcao":"Dwayne Johnson,Hiram Garcia,Dany Garcia,Beau Flynn",
-                "ano_de_lançamento": 2022
-                },
-                {
-                    "id": 4,
-                    "fil_nome":"fil 4",
-                    "nome": "mulher maravilha",
-                    "genero": "Ação,Aventura,Familiar,Ficção Científica,Comédia, super-héroi",
-                    "direcao":"Geoff Johns, Jon berg, Charles Rover, Deborah Snyder, Zack Snyder, Allan Heinberg",
-                    "ano_de_lançamento": 2017
-                    }
-    ],
-    "produtos": [
-        {
-            "id": 1,
-             "pro_nome": "Coca-Cola",
-             "valor": "10 reais",
-             "ml": "1L"
-        },
-            {
-                "id": 2,
-                 "pro_nome": "Pipoca",
-                 "valor": "7 Reais",
-                 "quantidade": "350g"
-            },
-            {
-                "id": 3,
-                 "pro_nome": "Promoção:Básico",
-                 "combo":"Coca-Cola,Pipoca",
-                 "valor": "15 Reais"
-                
-            },
-            {
-                "id": 4,
-                 "pro_nome": "Mega-Combo",
-                 "combo":"Action-Figure,Coca-Cola, Pipoca,Ingresso,Camisa customizada,Brinde",
-                 "valor": "400 Reais",
-                 "brinde": "Item Secreto"
-            }
-    ],
-    "shopping":[
-        {
-            "id": 1,
-             "fan_nome": "produtos imperdiveis",
-             "combos": "Combo: Camiseta Pré - Estreia Adão Negro",
-             "brinde_do_combo": "Caneca do Adão Negro, poster",
-             "ingresso": "incluso no combo",
-             "valor":"R$ 110 reais"
-        },
-        {
-            "id": 2,
-             "fan_nome": "produtos imperdiveis",
-             "camisa": "camisa do Pantera Negra: Wakanda Para Sempre",
-             "promocao": "2 camisa do pantera nebra, feminino e masculino por 80% do preço",
-             "cartao": "parcelamento em até 2x",
-             "valor":"R$ 150,00 reais"
-            
-        }, 
-        {
-            "id": 3,
-             "fan_nome": "produtos imperdiveis",
-             "camisa": "camisa do Corra, Querida, Corra",
-             "promocao": "2 camisa do corra, querida, corra por 80% do preço",
-             "cartao": "parcelamento em até 2x",
-             "valor":"R$ 110 reais"
-            
-        },
-        {
-            "id": 4,
-             "fan_nome": "produtos imperdiveis",
-             "camisa": "camisa da mulher maravilha, poster, caneca e boné",
-             "promocao": "3 camisa, 1 poster, 1 caneca, e 1 boné da mulher maravilha por 80% do preço",
-             "cartao": "parcelamento em até 2x",
-             "valor":"R$ 370 reais"
-             
-        }
-    ]
-    
+  "cinemas": [
+    {
+      "id": 1,
+      "cine_nome": "Park Shopping",
+      "localizacao": "Estr. do Monteiro, 1200 - Campo Grande, Rio de Janeiro - RJ",
+      "horario_dos_filmes": "14h",
+      "assentos": "46 comuns, 30 vips, 25 preferencias",
+      "dub_leg": "Dub 15:00h, Leg 18:00h"
+    },
+    {
+      "id": 2,
+      "cine_nome": "Espaco Itau de Cinema - Pompeia",
+      "localizacao": "Rua Palestra Itália, 500 - Água Branca",
+      "horario_dos_filmes": "14H",
+      "assentos": "40 comuns, 40 vips, 40 preferencias",
+      "dub_leg": "Dub 17:30h, Leg 17:00"
+    },
+    {
+      "id": 3,
+      "cine_nome": "Cine Marquise",
+      "localizacao": "Avenida Paulista, 2073 - Bela Vista",
+      "horario_dos_filmes": "14H",
+      "assentos": "43 comuns, 43 vips, 43 preferencias",
+      "dub_leg": "Dub 19:30h, Leg 19:00"
+    },
+    {
+      "id": 4,
+      "cine_nome": "West Shopping",
+      "localizacao": "Estr. do Mendanha, 555 - Campo Grande, Rio de Janeiro - RJ",
+      "horario_dos_filmes": "a partir de 14h",
+      "assentos": "38 comuns, 25 vips, 28 preferencias",
+      "dub_leg": "Dub 14:00h, Leg 17:20h"
+    }
+  ],
+  "filmes": [
+    {
+      "id": 1,
+      "fil_nome": "fil 1",
+      "nome": "Pantera Negra: Wakanda Para Sempre",
+      "genero": " Ação/Aventura",
+      "direcao": "Ryan Coogler",
+      "ano_de_lançamento": 2022,
+      "duração_do_filme": "2h 41m"
+    },
+    {
+      "id": 2,
+      "fil_nome": "fil 2",
+      "nome": "Corra, Querida, Corra,",
+      "genero": "terror",
+      "direcao": "Jason Blum,Effie Brown,Shana Feste,Brian Kavanaugh-Jones",
+      "ano_de_lançamento": 2022
+    },
+    {
+      "id": 3,
+      "fil_nome": "fil 3",
+      "nome": "Adão Negro",
+      "genero": "Ação,Fantasia,Super-herói,Suspense,Ficção Científica,Drama,Aventura",
+      "direcao": "Dwayne Johnson,Hiram Garcia,Dany Garcia,Beau Flynn",
+      "ano_de_lançamento": 2022
+    },
+    {
+      "id": 4,
+      "fil_nome": "fil 4",
+      "nome": "mulher maravilha",
+      "genero": "Ação,Aventura,Familiar,Ficção Científica,Comédia, super-héroi",
+      "direcao": "Geoff Johns, Jon berg, Charles Rover, Deborah Snyder, Zack Snyder, Allan Heinberg",
+      "ano_de_lançamento": 2017
+    },
+    {
+      "fil_nome": "fil 1",
+      "nome": "stuart",
+      "genero": " Ação/Aventura",
+      "direcao": "Ryan Coogler",
+      "ano_de_lançamento": 1950,
+      "duração_do_filme": "2h 41m",
+      "id": 5
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "pro_nome": "Coca-Cola",
+      "valor": "10 reais",
+      "ml": "1L"
+    },
+    {
+      "id": 2,
+      "pro_nome": "Pipoca",
+      "valor": "7 Reais",
+      "quantidade": "350g"
+    },
+    {
+      "id": 3,
+      "pro_nome": "Promoção:Básico",
+      "combo": "Coca-Cola,Pipoca",
+      "valor": "10 Reais"
+    },
+    {
+      "id": 4,
+      "pro_nome": "Mega-Combo",
+      "combo": "Action-Figure,Coca-Cola, Pipoca,Ingresso,Camisa customizada,Brinde",
+      "valor": "400 Reais",
+      "brinde": "Item Secreto"
+    }
+  ],
+  "shopping": [
+    {
+      "id": 1,
+      "fan_nome": "produtos imperdiveis",
+      "combos": "Combo: Camiseta Pré - Estreia Adão Negro",
+      "brinde_do_combo": "Caneca do Adão Negro, poster",
+      "ingresso": "incluso no combo",
+      "valor": "R$ 110 reais"
+    },
+    {
+      "id": 2,
+      "fan_nome": "produtos imperdiveis",
+      "camisa": "camisa do Pantera Negra: Wakanda Para Sempre",
+      "promocao": "2 camisa do pantera nebra, feminino e masculino por 80% do preço",
+      "cartao": "parcelamento em até 2x",
+      "valor": "R$ 150,00 reais"
+    },
+    {
+      "id": 3,
+      "fan_nome": "produtos imperdiveis",
+      "camisa": "camisa do Corra, Querida, Corra",
+      "promocao": "2 camisa do corra, querida, corra por 80% do preço",
+      "cartao": "parcelamento em até 2x",
+      "valor": "R$ 110 reais"
+    },
+    {
+      "id": 4,
+      "fan_nome": "produtos imperdiveis",
+      "camisa": "camisa da mulher maravilha, poster, caneca e boné",
+      "promocao": "3 camisa, 1 poster, 1 caneca, e 1 boné da mulher maravilha por 80% do preço",
+      "cartao": "parcelamento em até 2x",
+      "valor": "R$ 370 reais"
+    }
+  ]
 }
-
-
